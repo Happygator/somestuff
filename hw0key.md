@@ -130,7 +130,7 @@ Let's fix your boss's mistake!
 
 ```
 Let's open the file with vim. Then we'll use 2 vim commands:
-:%s/rickyCorpPassword.*rickyCorpUsername/XrickyCorpUsername/g
+:%s/rickyCorpPassword.*rickyCorpUsername/XrickyCorpUsername.*/g
 :%s/rickyCorpPassword.*/X/g
 
 %s means substitute in all lines
