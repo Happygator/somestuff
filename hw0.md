@@ -101,7 +101,8 @@ We want this ouput per line:
 username1Xusername2X
 ```
 
-Luckily, you notice that every password starts with rickyCorpPassword and ends in a string of alphanumeric characters. 
+Luckily, you notice that every password starts with rickyCorpPassword and ends in a string of alphanumeric characters.
+Company policy also dictates that employees should have username starting with rickyCorpUsername.
 
 Let's fix your boss's mistake!
 
@@ -117,3 +118,7 @@ Let's fix your boss's mistake!
 	<br>
 	The passwords start with a string they all have in common: 'rickyCorpPassword' and end with a random unique string. This means we want to use a wildcard in our search.
 </details>
+
+```
+ANSWER HERE
+```
