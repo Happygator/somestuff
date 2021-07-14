@@ -1,5 +1,5 @@
-# Intro to Unix Scripting
-### Psst... Hey there!
+# Psst... Hey there!
+### Can you fit size 10.5 shoes?
 Looks like you're settling down great at your new job here in Ricky Corporation. But not all is as it seems!
 
 I've got a job for you if you're willing to listen, kiddo.
