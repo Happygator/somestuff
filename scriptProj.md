@@ -1,5 +1,5 @@
 # A Brief Scripting Project
-## Script 47
+## Do you like CDs
 It must be a pain to always be killing the same processes over and over again. Let's build a very simple script that can kill processes given a file of shady processes we need to kill.
 ##### (do not include sudo inside your script, allow the user to sudo the script themselves
 ### Some Guidlines:
@@ -40,5 +40,5 @@ while read line; do
 done < $fileName
 
 # you can simply exit on completion, or if you'd like, make the script ask if the user wants to try another file
-# do you like CDs
+# who's joe mama
 ```
