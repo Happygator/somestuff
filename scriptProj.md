@@ -19,24 +19,26 @@ apache2
 This script is pretty generic, and you can do it however you like. Remember, theres many ways of reading file input, but they're all pretty similar. Go with what works for you. This is a pseduocode outline.
 
 ```
-#!/bin/bash
-
-read filePath
+!/bin/bash
 
 # can we use quotes or brackets here? do we need to?
+read filePath
+
 fileName=$filePath
 
 # how can we read the file line by line?
 # google is your friend here, fill in the ???
 
-while ???; do
+while read line; do
 # an invalid pid or process name will produce an error but not stop our script
 # thus we do not need to check for validity, simply shotgun through
 # if you'd like you can add extra flavor in this body, like hit confirm, etc
-  killByName
-  killByPID
-done ???
+    pkill $"line"
+    pkill $"line"
+#  killByName
+#  killByPID
+done < $fileName
 
 # you can simply exit on completion, or if you'd like, make the script ask if the user wants to try another file
-
+# do you like CDs
 ```
